@@ -1,6 +1,4 @@
-# BRFSS-Random-Forest
-Using Random Forest Classificaiton to Predict Good or Poor Health Based on the Behavioral Risk Factor Surveillance System Survey
-
+# Using Random Forest Classificaiton to Predict Good or Poor Health Based on the Behavioral Risk Factor Surveillance System Survey
 
 The Behavioral Risk Factor Surveillance System (BRFSS) is a real world dataset (RWD) compiled from an annual health-related telephone survey conducted by the United States' Centers for Disease Control and Prevention (CDC) regarding their health-related risk behaviors, chronic health conditions, and use of preventive services [CDC's BRFSS site].
 
