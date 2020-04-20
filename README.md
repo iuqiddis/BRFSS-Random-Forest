@@ -1,4 +1,4 @@
-# Using Random Forest Classificaiton to Predict Good or Poor Health Based on the Behavioral Risk Factor Surveillance System Survey
+# Using Random Forest Classification to Predict Good or Poor Health Based on the Behavioral Risk Factor Surveillance System Survey
 
 ### Introduction
 
@@ -14,8 +14,8 @@ The resultant public domain datasets are readily avaliable via the [CDC's site](
 
 **Modeling**: I'll start by using a Decision Tree Classifier that fits the data into the 'Good or Better' or 'Fair or Poor' Health classes. The benefit of this is the ease of understanding and interpreting the original data. However, the disadvantage of the approach is that the a decision tree overfits to the training data, and as such is not a robust predictive model.
 
-After developing some intuition of the data, I'll implement a Random Forest Classifier, which uses bagging and forests (ensemble of mulitple decision trees), to generate a robust model with lower variance.
+After developing some intuition of the data, I'll implement a Random Forest Classifier, which uses bagging and forests (ensemble of multiple decision trees), to generate a robust model with lower variance.
 
 Lastly, I'll use cross validation to to optimize the hyperparameters for improved prediction while further minimizing overfitting and selection bias.
 
-**Scoring:** A number of scoring methods can be used to assess model robustness. Some of these include accuracy, precision and recall, and the reciever operator characterestic. As I'll explore the data, I'll make and explain the choices for the scoring method I used.
+**Scoring:** A number of scoring methods can be used to assess model robustness. Some of these include accuracy, precision and recall, and the receiver operator characteristic. As I'll explore the data, I'll make and explain the choices for the scoring method I used.
